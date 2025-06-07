@@ -18,3 +18,4 @@ Must be one of the following:
 # Git reset and undo changes
 - git reset --soft <commit>: Keep changes in the staging area, this can help to combining multiple commit into one or rename our commit message
 - git reset --mixed <commit>: Commits changes to working directory, this can also help us to reorganize changes before commiting our code
+- git reset --hard <commit>: Delete all uncommitted change, ATTENTION: Changes are lost forever, use it if you add by mistake some secrets (like hardcode password or api key, or token...) in your code, the recommanded method is to delete definitly that branch and recreate
