@@ -20,6 +20,6 @@ Must be one of the following:
 - git reset --mixed <commit>: Commits changes to working directory, this can also help us to reorganize changes before commiting our code
 - git reset --hard <commit>: Delete all uncommitted change, ATTENTION: Changes are lost forever, use it if you add by mistake some secrets (like hardcode password or api key, or token...) in your code, the recommanded method is to delete definitly that branch and recreate
 
-# Excecise:
+# Excercise:
 - create new branch from main (first move to local main branch and pull latest code)
 - add 3 commits and use `git reset --soft` to combine that into one commit
