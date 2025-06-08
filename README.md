@@ -23,3 +23,4 @@ Must be one of the following:
 # Excecise:
 - create new branch from main (first move to local main branch and pull latest code)
 - add 3 commits and use `git reset --soft` to combine that into one commit
+- Then push you change
